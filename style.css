@@ -457,3 +457,16 @@
       padding: 25px;
     }
   }
+
+  /* Logo image fix */
+.logo img {
+  height: 60px;
+  width: auto;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .logo img {
+    height: 50px;
+  }
+}
